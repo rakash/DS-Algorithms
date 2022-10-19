@@ -26,6 +26,4 @@ jobs:
     - name: Install dependencies
       run: |
         python binary_Search.py
-    - name: Test with pytest
-      run: |
-        pytest
+ 
