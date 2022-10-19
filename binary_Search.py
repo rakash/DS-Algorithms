@@ -45,7 +45,9 @@ for target in sorted_Array:
 
 print(binarysearch(sorted_Array[-1] + 1, sorted_Array))
 
-f = open("output.txt", "w")
-for item in sorted_Array:
+sarray = [1, 5]
+
+f = open("/output.txt", "w")
+for item in sarray:
    f.write(item + "\n")
 f.close()
