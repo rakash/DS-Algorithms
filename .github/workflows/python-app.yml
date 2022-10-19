@@ -14,9 +14,7 @@ permissions:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
-
     steps:
     - uses: actions/checkout@v3
     - name: Set up Python 3.10
@@ -29,5 +27,5 @@ jobs:
     - name: Upload Results
       uses: actions/upload-artifact@v3
       with:
-      name: Python_Results
-      path: python-results/output.txt
+       name: Results
+       path: python-results/output.txt
