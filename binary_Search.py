@@ -49,5 +49,5 @@ sarray = [1, 5]
 
 f = open("/home/runner/work/DS-Algorithms/DS-Algorithms/output.txt", "w")
 for item in sarray:
-   f.write(item + "\n")
+   f.write(int(item)+ "\n")
 f.close()
