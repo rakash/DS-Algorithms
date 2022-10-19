@@ -28,4 +28,4 @@ jobs:
       uses: actions/upload-artifact@v3
       with:
        name: Results
-       path: python-results/output.txt
+       path: output.txt
