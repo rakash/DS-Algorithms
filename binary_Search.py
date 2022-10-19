@@ -47,7 +47,7 @@ print(binarysearch(sorted_Array[-1] + 1, sorted_Array))
 
 sarray = [1, 5]
 
-f = open("/output.txt", "w")
+f = open("/home/runner/work/DS-Algorithms/DS-Algorithms/output.txt", "w")
 for item in sarray:
    f.write(item + "\n")
 f.close()
